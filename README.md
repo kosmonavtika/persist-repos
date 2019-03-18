@@ -1,4 +1,4 @@
-# `persist-repo.sh`
+# `persist-repos.sh`
 
 An `apt` hook for Proxmox VE to make non-subscription repositories and subscription dialog removal persistent.
 
