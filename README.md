@@ -1,5 +1,16 @@
 # `persist_proxmox_apt_repos.sh`
 
+This script is adapted for out own internal use: 
+
+If you don't want the hassle to change things back use:
+
+https://github.com/kosmonavtika/persist-repos
+
+instead of 
+
+https://github.com/leancode/persist-repos
+
+
 An `apt` hook for Proxmox VE 6 to make non-subscription repositories and subscription dialog removal persistent.
 
 Please note that this has not been tested extensively. Use it at your own risk! Feel free to contribute and improve it.
