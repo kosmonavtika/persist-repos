@@ -38,6 +38,10 @@ Make script executable:
 ssh root@$PERSIST_HOST "/bin/chmod a+x /usr/local/bin/persist_proxmox_apt_repos.sh"
 ```
 
-## Use
+Run the script for the first time manually for the changes to take effect:
 
-When you install an update or a package, the hook will invoke the script and make the changes persistent.
+```
+ssh root@$PERSIST_HOST "/usr/local/bin/persist-repos.sh"
+```
+In the future the script will automatically run when you install an update or a package. The hook will invoke the script and make the changes persistent if they were undone by the update / upgrade.
+
