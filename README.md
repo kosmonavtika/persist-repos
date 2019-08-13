@@ -9,7 +9,7 @@ Please note that this has not been tested extensively. Use it at your own risk! 
 Clone repository:
 
 ```
-git clone https://github.com/kosmonavtika/persist-repos.git
+git clone https://github.com/leancode/persist-repos.git
 ```
 
 Set host: 
