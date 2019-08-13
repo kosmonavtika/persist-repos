@@ -1,1 +1,1 @@
-DPkg::Post-Invoke { "/usr/local/bin/persist-repos.sh"; };
+DPkg::Post-Invoke { "/usr/local/bin/persist_proxmox_apt_repos.sh"; };
