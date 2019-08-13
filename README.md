@@ -29,7 +29,7 @@ scp persist-repos/99persistrepos root@$PERSIST_HOST:/etc/apt/apt.conf.d/99persis
 Push script:
 
 ```
-scp persist-repos/persist-repos.sh root@$PERSIST_HOST:/usr/local/bin/persist_proxmox_apt_repos.sh
+scp persist-repos/persist_proxmox_apt_repos.sh root@$PERSIST_HOST:/usr/local/bin/persist_proxmox_apt_repos.sh
 ```
 
 Make script executable:
