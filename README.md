@@ -9,7 +9,7 @@ Please note that this has not been tested extensively. Use it at your own risk! 
 Clone repository:
 
 ```
-git clone https://github.com/thelander/persist-repos.git
+git clone https://github.com/kosmonavtika/persist-repos.git
 ```
 
 Set host: 
@@ -34,6 +34,12 @@ Make script executable:
 
 ```
 ssh root@$PERSIST_HOST "/bin/chmod a+x /usr/local/bin/persist-repos.sh"
+```
+
+Run script:
+
+```
+ssh root@$PERSIST_HOST "/usr/local/bin/persist-repos.sh"
 ```
 
 ## Use
