@@ -1,6 +1,6 @@
 # `persist-repos.sh`
 
-*This repository has been deprecated and archived. Please see kosmonavtika/pve-patch instead.*
+**This repository has been deprecated and archived. Please see [kosmonavtika/pve-patch](https://github.com/kosmonavtika/pve-patch) instead.**
 
 An `apt` hook for Proxmox VE to make non-subscription repositories and subscription dialog removal persistent.
 
